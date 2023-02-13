@@ -1,0 +1,168 @@
+#title {
+background-color: #ff4c68;
+color: #fff;}
+
+body{
+    font-family: 'Montserrat';
+}
+h1,h2,h3,h4,h5,h6{
+font-family: "Montserrat-Bold";
+text-align: center;
+}
+
+
+.Big-heading{
+line-height: 1.5;
+text-align:left;
+font-size: 4rem;
+}
+
+.container-fluid {
+padding:3% 15% 10%;
+}
+
+
+/* Navigation Bar */
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding: 0 30px 20px 0;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+/* Download Button */
+
+.download-button{ 
+    margin:5% 5% 5% 0%;
+    line-height: 1.8rem;
+}
+
+.fa-brands{
+    padding :0% 10px 0 0;
+
+}
+
+/* Title Image */
+
+.title-image {
+width: 70%;
+padding: 10% 5% 0;
+transform: rotate(25deg);
+}
+
+/* features section */
+#features {
+background-color: rgb(255, 255, 255);
+position: relative;
+z-index: 1;
+margin-top: -21rem;
+}
+.features-box{ 
+    text-align: center;
+    padding: 8%;
+    
+}
+
+
+p {
+    color: #8f8f8f;
+    text-align: center;
+}
+.icon{
+    color: #ef8172;
+    margin: 1rem;
+}
+.icon:hover {
+    color: #ff4c68 ;
+}
+/* <!-- Testimonials --> */
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+ 
+}
+
+
+.testimonoal-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+text-align: center;
+padding-bottom: 3%;
+background-color: #ef8172;
+
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+.card-heading{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.card-heading-1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.btn-pr{
+    padding: 2% 30%;
+}
+
+
+/* <!-- Call to Action --> */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5%;
+}
+.footer-font{
+font-family: Montserrat-black;
+font-weight: bold;
+color: #fff ;
+size: 8rem;
+font-size: 3rem;
+}
+
+    /* footer secction */
+    #footer{
+        padding: 5%;
+        text-align: center;
+}
+
+@media (max-width:1200px) {
+    .title-image{
+        position: static;
+        transform: rotate(0);}
+    #title{
+            text-align: center;
+           }
+           h1{ font-size: 3em;
+           }
+           #features{
+            margin-top: -10rem;
+           }
+}
